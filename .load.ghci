@@ -1,0 +1,3 @@
+:load *URLParser 
+:set -XOverloadedStrings
+:m + Text.Megaparsec Text.Megaparsec.Char Text.Megaparsec.Char.Lexer  Data.Text Data.Void URLParser Text.Megaparsec.Debug
