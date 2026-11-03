@@ -1,0 +1,3 @@
+:load Parser
+:set -XOverloadedStrings
+:m + Text.Megaparsec Text.Megaparsec.Char Text.Megaparsec.Char.Lexer  Data.Text Data.Void Text.Megaparsec.Debug Control.Monad.Combinators.Expr Parser
